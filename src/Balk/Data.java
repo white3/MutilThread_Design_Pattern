@@ -23,7 +23,7 @@ public class Data {
 
 	public synchronized void save() throws IOException {
 		if (!changed)
-			return;
+			return ;
 		doSave();
 		changed = false;
 	}
