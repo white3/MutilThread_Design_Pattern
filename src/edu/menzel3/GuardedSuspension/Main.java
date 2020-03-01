@@ -1,4 +1,4 @@
-package GuardedSuspensionPlus;
+package edu.menzel3.GuardedSuspension;
 
 public class Main {
 

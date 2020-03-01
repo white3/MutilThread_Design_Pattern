@@ -1,4 +1,4 @@
-package GuardedSuspensionPlus;
+package edu.menzel3.GuardedSuspension;
 
 import java.util.LinkedList;
 import java.util.Queue;
