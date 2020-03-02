@@ -15,7 +15,7 @@ public class Log {
 		TSLog tsLog = tsLogCollection.get();
 
 		if (tsLog == null) {
-			tsLog = new TSLog(Thread.currentThread().getName() + "-Log.txt");
+			tsLog = new TSLog("res/" + Thread.currentThread().getName() + "-Log.txt");
 			tsLogCollection.set(tsLog);
 		}
 		return tsLog;

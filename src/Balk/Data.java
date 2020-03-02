@@ -30,7 +30,7 @@ public class Data {
 
 	private void doSave() throws IOException {
 		System.out.println(Thread.currentThread() + "billId: " + billId + " | update new content: " + content);
-		Writer writer = new FileWriter(new File(billId + ".bill"));
+		Writer writer = new FileWriter(new File("res/" + billId + ".bill"));
 		writer.write(content);
 		writer.close();
 	}
