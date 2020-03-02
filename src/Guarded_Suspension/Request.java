@@ -1,4 +1,4 @@
-package GuardedSuspension;
+package Guarded_Suspension;
 
 public class Request {
 	private final String message;

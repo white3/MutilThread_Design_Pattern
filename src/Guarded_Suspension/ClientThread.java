@@ -1,4 +1,4 @@
-package GuardedSuspension;
+package Guarded_Suspension;
 
 import java.util.Random;
 

@@ -1,4 +1,4 @@
-package SingleThreadedExecution;
+package Single_Threaded_Execution;
 
 public class UnsafeGate extends Gate{
 	private int counter = 0;

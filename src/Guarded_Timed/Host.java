@@ -1,4 +1,4 @@
-package GuardedTimed;
+package Guarded_Timed;
 
 import java.util.concurrent.TimeoutException;
 
