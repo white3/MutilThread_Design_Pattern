@@ -1,4 +1,7 @@
-package ActiveObject;
+package ActiveObject.Main;
+
+import ActiveObject.ActiveObject;
+import ActiveObject.Result;
 
 public class MakerClientThread extends Thread {
 	private final ActiveObject activeObject;

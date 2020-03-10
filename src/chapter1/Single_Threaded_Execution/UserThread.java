@@ -1,4 +1,4 @@
-package Single_Threaded_Execution;
+package chapter1.Single_Threaded_Execution;
 
 public class UserThread extends Thread{
 
@@ -17,7 +17,6 @@ public class UserThread extends Thread{
 
 	@Override
 	public void run() {
-		// TODO Auto-generated method stub
 		System.out.println(this.name + " Begin: ");
 		while(true) {
 			gate.pass(name, address);

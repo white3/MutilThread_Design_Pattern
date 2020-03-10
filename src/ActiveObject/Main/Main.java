@@ -1,4 +1,7 @@
-package ActiveObject;
+package ActiveObject.Main;
+
+import ActiveObject.ActiveObject;
+import ActiveObject.ActiveObjectFactory;
 
 public class Main {
 

@@ -15,5 +15,4 @@ class MakeStringRequest extends MethodRequest<String> {
 		Result<String> result = this.servant.makeString(count, fillchar);
 		future.setResult(result);
 	}
-
 }

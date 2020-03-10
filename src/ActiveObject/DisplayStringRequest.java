@@ -1,6 +1,6 @@
 package ActiveObject;
 
-public class DisplayStringRequest extends MethodRequest<Object> {
+class DisplayStringRequest extends MethodRequest<Object> {
 	private final String string;
 
 	public DisplayStringRequest(Servant servant, String string) {

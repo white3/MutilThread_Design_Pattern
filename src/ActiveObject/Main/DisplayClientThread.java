@@ -1,4 +1,6 @@
-package ActiveObject;
+package ActiveObject.Main;
+
+import ActiveObject.ActiveObject;
 
 public class DisplayClientThread extends Thread{
 	private final ActiveObject activeObject;
